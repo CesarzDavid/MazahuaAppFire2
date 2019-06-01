@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bajadensidad"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botoncomenzar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/botoncomenzar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="@string/txt_deslizar"/>
+
+    <!-- Boton y EditText para agregar Datos a Firebase
+           agregar abajo android:translationY="500dp"-->
+
+    <LinearLayout
+        android:translationY="500dp"
+        android:elevation="6dp"
+        android:id="@+id/layoutID"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:background="#D74177"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:background="#D74177"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mazahua"
+                    android:textColor="#FFF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Aprendemazahua"
+                    android:textColor="#FFF"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/botonclose"
+                    android:background="@drawable/bgcerrar"
+                    android:layout_width="73dp"
+                    android:layout_height="22dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="@string/txt_boton_cerrar"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1900dp">
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto1"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto2"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto3"/>
+
+
+                <ImageView
+                    android:layout_marginTop="28dp"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/clickaudio"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto4"/>
+
+
+                <ImageView
+                    android:layout_marginTop="28dp"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/click2"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto5"/>
+
+                <ImageView
+                android:layout_marginTop="28dp"
+                android:layout_width="265dp"
+                android:layout_height="80dp"
+                android:src="@drawable/fonemas"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto6"/>
+
+                <TextView
+                    android:layout_marginRight="22dp"
+                    android:lineSpacingExtra="6dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_texto7"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

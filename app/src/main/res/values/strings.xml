@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Mazahua App</string>
+
+    <string name="desc">imagen</string>
+    <string name="Mazahua">Diccionario Mazahua</string>
+    <string name="Aprendemazahua">Conociendo el dialecto mazahua</string>
+    <string name="Boton_start">Ver Diccionario</string>
+    <string name="txt_deslizar">Deslizar</string>
+    <string name="txt_boton_cerrar">CERRAR</string>
+    <string name="txt_texto1"> MazahuaApp es un diccionario conformado por 6 campos semánticos con las palabras más populares
+                                del dialecto Mazahua \n</string>
+    <string name="txt_texto2"> Existen 2 variantes del dialecto Mazahua, el dialecto que pertenece a la región de Temascalcingo
+                                y el dialecto que pertenece a la región de Donato Guerra.\n \n
+                                Cada palabra tiene su propia página donde aprenderás su escritura y pronunciación en las 2 variantes,
+                                también vienen acomañada con 2 ejemplos para practicar su uso.\n </string>
+
+    <string name="txt_texto3"> Para escuchar la pronunciación de cada palabra en la variante de Temascalcingo,
+                                toca la imagen con el simbolo T\n</string>
+
+    <string name="txt_texto4"> Para escuchar la pronunciación de cada palabra en la variante de Donato Guerra,
+                                toca la imagen con el simbolo DG\n</string>
+
+    <string name="txt_texto5"> Encontrarás los fonemas de la palabra a lado de cada pronuciación para facilitar la comprensión del sonido \n</string>
+
+    <string name="txt_texto6"> Cuando solo se presente una variante en una palabra, quiere decir, que la palabra aplica para ambas variante
+                                \n</string>
+
+    <string name="txt_texto7"> \n MazahuaApp requiere conexión a internet. \n</string>
+
+
+
+    <string name="txt_Aprender">Aprendiendo Mazahua</string>
+    <string name="txt_vocabulario"> 6 Campos Semánticos</string>
+    <string name="txt_c1_presentacion">    Así me\npresento</string>
+    <string name="txt_c1_presentacion2">Así me presento</string>
+    <string name="txt_c2_vocales">Vocales</string>
+    <string name="txt_c3_animales">Animales</string>
+    <string name="txt_c4_colores">Colores</string>
+    <string name="txt_c5_frutas">Frutas y\n Verduras</string>
+    <string name="txt_c6_numeros">Números</string>
+
+
+</resources>
